@@ -1,0 +1,8 @@
+numpy
+scipy 
+nose 
+pandas 
+matplotlib 
+cvxopt 
+theano 
+scikit-learn
