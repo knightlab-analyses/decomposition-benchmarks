@@ -83,7 +83,7 @@ class R_pca:
         numplots = np.min([n, nrows * ncols])
         plt.figure()
 
-        for n in xrange(numplots):
+        for n in range(numplots):
             plt.subplot(nrows, ncols, n + 1)
             plt.ylim((ymin - tol, ymax + tol))
             plt.plot(self.L[n, :] + self.S[n, :], 'r')
