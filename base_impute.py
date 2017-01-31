@@ -40,6 +40,4 @@ class base(object):
         imp =Imputer(missing_values='NaN', strategy='most_frequent', axis=0, verbose=0, copy=True)
         imp.fit(A)
         return imp.transform(A)
-    
-    def xrange(x):
-        return iter(range(x))
+ 
